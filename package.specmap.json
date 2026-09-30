@@ -1,0 +1,2718 @@
+{
+  "code_items": [],
+  "edges": [],
+  "schema": 3,
+  "spec_units": [
+    {
+      "anchor": "root",
+      "content_hash": "sha256:3c0f36c71248e464539dbcd59b7cc2d6737dcd2a659a5ea93e1346ec2ad48484",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1 - Bound the Receiving Use and Semantic Contract",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:55b43ccf5045abc97d3c989c888ae824b521a50bc245a267ad3dd9e2fd04b43c",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:3a3d522a5a56ef52dabf4c5f55ddd59c30daa8cb0eea9c9fb67f32e5dd0835b7",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:fb1de736733febce6650a6912b32af15749b0bee43239d0883d834341dc22882",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:fc831ca65795f0ae643e88731aeabc9df7a4567913af3518ca6a82429838a8d5",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:ac2df299f84ea77e8ce284a1885486be95ba41e4f0c5d4d8b4de975a4a7d5c07",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:4.1 - Pattern-Use Unfolding",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:9195d564930264f6861744a013eedabf90b27a343e25369025018c762931cbd6",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:4.2 - Record the Result",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:c49aa8be7d04e522b4a90a308a32886d06baf6a0563aaa38c368c3a91af60564",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:4.3 - What Changes in Practice",
+      "line": 68,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:3ec847a40714c09eff45d3d326232feb1df2764a867db0606108305129bfd419",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:7 - Conformance Checklist",
+      "line": 72,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:19d250798acc4e3106f83744885faf757cbb2741d4741f4a65aa27040ab46cb7",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:9 - Consequences",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:f2a429bab7d2c948eb8ad988db21dfd04b20da5930408180f33fe69ebac25257",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "SIE.1:12 - Relations",
+      "line": 90,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:00e917126cdc4b8cfdcec80f1eaa43951ab97fc4e92dde5921b2592a0e803c61",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "Dependencies",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:80c28d825b0619cff233ea7181d8998b80050166e30c21275b1dbe54aa617409",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "Dependencies (as published): FPF spec://ai.lev/fpf-spec/contract/C-37#root; spec://ai.lev/fpf-eng-me/contract/ME-3#root; direct receiver and source-owner results @status:spec/done",
+      "line": 101,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:98799696ff0b575f1e1c4baee05c40963377bf5862f522032ad52ac2fb0c1a1b",
+      "doc_path": "contract/SIE-1",
+      "file": "vibevm/vibespecs/contract/SIE-1.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-sie/contract/SIE-10#root, spec://ai.lev/fpf-eng-sie/contract/SIE-2#root, spec://ai.lev/fpf-eng-sie/contract/SIE-3#root, spec://ai.lev/fpf-eng-sie/contract/SIE-8#root, spec://ai.lev/fpf-eng-sie/contract/SIE-9#root @status:spec/done",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-1#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:5878ee86c3a1d88f74af58c2047130cfa225021921372036dbacd69b98bbdea2",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10 - Validate a Semantic Integration Result for Its Receiving Use",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:a9c9dd3f9930f35157f921a2211637e1ec5ff2cdccca8963c81261b22c5ee171",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:63f775de6cf407849af330e8054891a5c2211455a3ae39fa98415da135435d21",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:5232a57bc02bfd29bf4ba62379c334cb0aa211aa000e8ee49eafbf7d809b7370",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:2e07e9687c9b22066aa5d2f32dc8509693965491cffac9d4b5493664b58fcbf9",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:4 - Solution",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:57dfb5b02da664efa536167ca030772feb8f08a52835b8856c995aac1015dc12",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:4.1 - Pattern-Use Unfolding",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:711a81b9c78e8a37a7d41bdc85da22ac4d125b33e9376521165dcf70f1afe913",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:4.2 - Record the Result",
+      "line": 59,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:49264adeee6445bf51d4d81aed53d3018a31bbd25c3c0ea3765af42a7f72d6b1",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:4.3 - What Changes in Practice",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:4e6160451d3b3718cb3530a08d5b49d9eb1829fcd8fdc630e8be928feaf6d6e2",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:7 - Conformance Checklist",
+      "line": 75,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:f487ff969b7d4879670bc291f887c35e2998b233d126067b7b37807bf1e1ed61",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:9 - Consequences",
+      "line": 93,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:5d71de8475b67d743f6d79ecab4f24262a45aa947cc5b39ba551687deb5b4d0c",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "SIE.10:12 - Relations",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:e32c841729413a3d051718e097a5a656b79033f5315fb004c70bf0b380719931",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "Dependencies",
+      "line": 109,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:2d6f63c42f50fea7b16cf9743510ea9efae5063e722ceb7c5e378fcd0263d900",
+      "doc_path": "contract/SIE-10",
+      "file": "vibevm/vibespecs/contract/SIE-10.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-1#root or equivalent use; relevant SIE.2-SIE.9 results; direct domain and receiver acceptance criteria @status:spec/done",
+      "line": 111,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-10#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:7d6e5b30cbca738d2307698bca59140f49a3d53947ef9182ee57425ec06f1b6d",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11 - Trace Semantic Change and Revalidate Affected Uses",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:79c5c5c82413cd3089726efd705142e93b67c5e69da9e419d15d5aa40926c1aa",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:cab0af5dda8c4ae56b6abd7bbcab9e08ce6fb37bc13e7854b611a11f25e2fc90",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:2 - Problem",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:ed1bc47d9e9af1decfa3bb3adfe64298a7f80f3a68a080fa0f51fc89c68cc729",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:19416283c5f8d3174dfda2ab4a9992bfacb9aa44cb65fc2645603c4397ab2cde",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:3f24b22f4fce5cf8178ea010688fe2065bea105eeb3ff530d9983b9bbe154699",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:4.1 - Pattern-Use Unfolding",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#pattern-use-unfolding"
+    },
+    {
+      "anchor": "domain-returns",
+      "content_hash": "sha256:8508bccdefc572308aa04b7455ffbfbf09f50e94c04acda73d0868482b5db03c",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:4.2 - Domain Returns",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#domain-returns"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:63388e9e71dbf4060514807f05c7c53e7ca14d94333c80b6bc491b5e79b80a5a",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:4.3 - Record the Result",
+      "line": 68,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:23e8bf1f19b44d631c855251d6f0d87af655b7feed239091153604098c2ca6d8",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:4.4 - What Changes in Practice",
+      "line": 82,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:418c40c77cbfb74700437de80e89d9249ddab666e805f14941af25a40ee35dbe",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:7 - Conformance Checklist",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:5da1a62d6882068496b7d732e924c8370973de471d4fdde3c8f387d02de92022",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:9 - Consequences",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:238d00929474afb106f141868eca18a0355f4f2c43c0276febf2b9b3d4fac278",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "SIE.11:12 - Relations",
+      "line": 103,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:48134a99678f9b5d467eb642e29482d14054e6dcf2dd277c9393fe458d97452c",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "Dependencies",
+      "line": 112,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:8cdd1ada23e9089c1958beb862e191f448cbf217d3c1bc702b68d235d5c58ca1",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "Dependencies (as published): Changed relied-on premise; relevant SIE.2-SIE.10 results; FPF spec://ai.lev/fpf-spec/contract/A-10-1#root when discovery is needed @status:spec/done",
+      "line": 114,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:b655f8f2bd7d85236efc2f0484d820c06e9cdad9a4d1ab073b4e8f9d8ee802a6",
+      "doc_path": "contract/SIE-11",
+      "file": "vibevm/vibespecs/contract/SIE-11.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-sie/contract/SIE-12#root @status:spec/done",
+      "line": 115,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-11#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:dda6c9a1a82e98e98b221221932b65078b9c7bfc4751f788ac47f9a3c0c72d97",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12 - Govern Modular Semantic Commons without Universal Authority",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:ee7e6a8e3f993bbd57ffec47d2ddd1698a03cd482bd411318295446786fcfd2a",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:a1e07a8fa85421597b5fb3214ae7a83a84646b88566384e2c6004df3fc28547e",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:2 - Problem",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:a48b32b16ef3dda322b54bd93ac190e1f468b86f058a9d2e0554b73d04655da4",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:3802da7b4dca0893f393a227de1a94c491abe691c3c1337936f7a78312331051",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:d707829b3a69b74262b84009266b590ca3b95657654555c35c34c817f7241a58",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:4.1 - Pattern-Use Unfolding",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:4bdf2f003392c5f1d531c7b0857d822688444c388f0cc0722ddea84e440ac7a9",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:4.2 - Record the Result",
+      "line": 56,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:64fcbc45eca4e2448cfcb5c7a6d8d14fe078f706688a1ece68e52ecbbdce1b75",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:4.3 - What Changes in Practice",
+      "line": 68,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:435e17d743dc7ce15b65824b3d5c38c08e79996cae9d13f2f035c18696ed7e09",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:7 - Conformance Checklist",
+      "line": 72,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:bfe420f5ff5e6fdac1b5b1ce98a7f530fa6deaea25323d98736b0e937124f5af",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:9 - Consequences",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:09288f32bf1fb452d3f65c7c7f678701301b9d25c1b3b0a1f9e9c064f0569e1d",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "SIE.12:12 - Relations",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:d50eab99ea2f97d196a69fb166053b14aef6d17b1b35521cf21319414780c251",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "Dependencies",
+      "line": 98,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:7fcc172065000ddbfcfb31593a9e629cf15327874f25357d67f46d6451ef35a8",
+      "doc_path": "contract/SIE-12",
+      "file": "vibevm/vibespecs/contract/SIE-12.md",
+      "heading": "Dependencies (as published): Actual shared-module uses; spec://ai.lev/fpf-eng-sie/contract/SIE-3#root, spec://ai.lev/fpf-eng-sie/contract/SIE-4#root, and spec://ai.lev/fpf-eng-sie/contract/SIE-11#root when their results are needed @status:spec/done",
+      "line": 100,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-12#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:535470c9d9600a5baa99239dcf37d379f06996cb0f61e3e3ae120a2b23de244c",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2 - Recover and Qualify Source Semantics and Authority",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:56cf4d78387404a9d34ac2958da6eaf4f1e0287e4f32c3f7903c277b4d14c605",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:d63d8889e82e579798460395cbb94257691078cb3943aed9b1c6433acde80de2",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:6f99192278d19500f0cbb8dbddb09aa0159fe6c5049f73d8647c9073be493c95",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:f4322df0d6971e5d38f3ccb295ba68990b06de82c68e3df12fcd79d22d3c23c3",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:4 - Solution",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:2a888e7efd1947142a0c32a28062ef8d23602ae1340cc49df3cc7940207be7fc",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:4.1 - Pattern-Use Unfolding",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:799b700a22efe5dc2b06ea9be8f4fd57c5e580d0aeb8cba8748bb57cc5f5729a",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:4.2 - Record the Result",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:882fe557524c9fcf273bed5febd00e0e48fb31789e4339616aaa6d56d7c8db2f",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:4.3 - What Changes in Practice",
+      "line": 68,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:31ca849304dcf745377eb55255048841bc45db760313670244422ba584d98ec6",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:7 - Conformance Checklist",
+      "line": 72,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:16c9c4dd971c06a871f6ec00fbd11be8f2888506d28d3584eeae34e98b6cc60b",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:9 - Consequences",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:3e25751dcdbdcde670b1e74e7d2f4b2f4de7b0e78d767f2be2b7c06fda34cdf6",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "SIE.2:12 - Relations",
+      "line": 90,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:e3752017a2895ea37211f70e96a209a74c090cf17cf476e27119dba2ec39b4ae",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "Dependencies",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:7536dd4429de861033a802fe92643de672c709e27ce688154a730603203c1d11",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-1#root or equivalent contract; FPF spec://ai.lev/fpf-spec/contract/F-0-1#root, spec://ai.lev/fpf-spec/contract/F-0-2#root; direct source owners @status:spec/done",
+      "line": 101,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:5cc69ab4eeeda33a8638b460e4484bc9998738e684c7579d4e2d716a6a64fcc8",
+      "doc_path": "contract/SIE-2",
+      "file": "vibevm/vibespecs/contract/SIE-2.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-sie/contract/SIE-3#root, spec://ai.lev/fpf-eng-sie/contract/SIE-4#root, spec://ai.lev/fpf-eng-sie/contract/SIE-5#root, spec://ai.lev/fpf-eng-sie/contract/SIE-6#root, spec://ai.lev/fpf-eng-sie/contract/SIE-7#root @status:spec/done",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-2#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:b420675d7a68647f86b90f04371fec26a8ed655b8ac7a78c72a0c11d79c73e76",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3 - Construct or Reuse a Semantic Model for a Named Use",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:866e8dca37113ea8de2a3226b7ca2532de422763be1bd63bf73d29aa9a13a737",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:61cce2b2d859820486c99765993e08ddedbe15ba0344b8f719695394465691aa",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:2 - Problem",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:f978948824b4f72d6ed683d666620a0fd1c51ed98f51ba05d49db69e91819331",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:3 - Forces",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:6a261b781211029d9bae985571b6501f8cbfad6eb0fe41c5b94ad8b88f17da8c",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:4 - Solution",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:df27386394801c5d4280421bd6aa9a67d688ae86fcd37f57b82ea82d41711820",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:4.1 - Pattern-Use Unfolding",
+      "line": 43,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:81359b01a998c77ec3dabfb22f29a5defc99acffdfa165e545f10575a9149e86",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:4.2 - Record the Result",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:b6d6a769c75a1207ff73da7158d1c05c8466a029022b4b772d2dce78fe2bafc9",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:4.3 - What Changes in Practice",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:925938a26bca87a35c96c05c54e8bde2ec186c50c65a55c8a5cf680f2b9f5144",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:7 - Conformance Checklist",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:8da74dba3af00aab3d7b52d2c252b424f954797c507c50464592e329a7a98e20",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:9 - Consequences",
+      "line": 81,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:0dd900e81ae126a795f1ab741e328a1b9299613e59fce6c3bc3667904d02a00b",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "SIE.3:12 - Relations",
+      "line": 87,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:29f99ed44c38d2fd1634ea51a8ce74aebaf20161858961557604c20f6299c157",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "Dependencies",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:0f04779702f63245b7f53c20d69c199bfd1e18454f0a677828f3df83696f1940",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-1#root or equivalent use; relevant spec://ai.lev/fpf-eng-sie/contract/SIE-2#root source meanings; domain participants @status:spec/done",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:74a2ba2cecc66056ff0b58f6d9a8ac6dfd6af44fd57fd99bd96a21405d7212ad",
+      "doc_path": "contract/SIE-3",
+      "file": "vibevm/vibespecs/contract/SIE-3.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-sie/contract/SIE-12#root, spec://ai.lev/fpf-eng-sie/contract/SIE-4#root @status:spec/done",
+      "line": 100,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-3#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:e2cb8e75c0ad27a94d5db8f8d1cb24f51a815e6ab7d215e06d9af7e0fe3c5676",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4 - Judge Cross-Source Correspondences and Their Permitted Uses",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:3986c24a68504c5d6f0cc9a44b6646ee31de20b331162852214765c388753f06",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:647caab742edd2fce49642675b7deef937e6a0ca66a07eff582e832905ee1f30",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:be99e49e95364aa731961240daac0167779e1fbec9d446523b2e3f3c0f1672df",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:59d1cf7daa009593410b7779c5660487e6600c04fa8119457e8d43708e767793",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:4 - Solution",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:d8424be04062b1b296968c1bd3ffcceea13591aaf74286bd78efeec684f40095",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:4.1 - Pattern-Use Unfolding",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:1ddfb5dff106eda4d329d88143ed96ca337de55ab7ea7bade0790b79aa05a07f",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:4.2 - Record the Result",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:3a0c57a56d576a9701b8c18e4642e3176ff943205fad056e2c547854e0286e9a",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:4.3 - What Changes in Practice",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:2e1099f003cfea17ec8fd47e1a5101cdaf480a7f485bdedd2a3dfa170a818fdd",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:7 - Conformance Checklist",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:7387a7fbcfb66dbe67cea7848baf2d2186dab657edf5df8db57f871c0d9dd1c7",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:9 - Consequences",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:59dbe39832c0ee87ef11dce02c8d873159615cad5c61c6e671525d68406800d7",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "SIE.4:12 - Relations",
+      "line": 90,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:7d296a9a34de5a16ffb1a5c673f0cab58b8fb6e9e3502707d169e311b9c271de",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "Dependencies",
+      "line": 100,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:e9d663b41a565446a759d67a9c9993e47c45cfdbc85594c30fc57f27eae9fc2d",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-2#root; supplied spec://ai.lev/fpf-eng-sie/contract/SIE-3#root result when required; FPF spec://ai.lev/fpf-spec/contract/F-9#root @status:spec/done",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:d224a977aca377fe5d4216e476a34a3c5ad060575f1b3b9cca28698a57f6cfe4",
+      "doc_path": "contract/SIE-4",
+      "file": "vibevm/vibespecs/contract/SIE-4.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-adm/contract/ADM-13#root, spec://ai.lev/fpf-eng-adm/contract/ADM-4#root, spec://ai.lev/fpf-eng-sie/contract/SIE-12#root, spec://ai.lev/fpf-eng-sie/contract/SIE-5#root, spec://ai.lev/fpf-eng-sie/contract/SIE-6#root, spec://ai.lev/fpf-eng-sie/contract/SIE-7#root @status:spec/done",
+      "line": 103,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-4#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:45d06337cb323445d71a3573553b83d48e55e095136a1bbb950a3a612931eddd",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5 - Resolve Cross-Source Identity without Erasing Identifier Authority",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:a2bdd3f4426e515164dc980d9ec3db4c62124b5c0a7464f6b48e85ff28e357f6",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:290261190de5bf8f46b6450d891c5c46c40aedfba7ad4c2aef1c0f9058b5e36a",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:bfa6653511150956e1348a610b4f28bbf02b0c256050540267e36a7bb3749d9a",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:1697976624927048c0fd41e916f0167767210f2e717db1ce9e98ca407a7ad93b",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:4 - Solution",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:fb857ea856cefb4a3b3063e2be37e6ac393cb6a1f9c3114384433246d784239a",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:4.1 - Pattern-Use Unfolding",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:04d939c65685d4e167d9db970e105a03f5c11f63a1ccaf1eacaad7518ba8f641",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:4.2 - Record the Result",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:9cd32bd34fe4be6a282788241718fb08f3d1cce2e6e5b43db3ebb774ac32dd49",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:4.3 - What Changes in Practice",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:c51def71944d08c4bfad21f6a93fb34c0123724c0d8b4ec2ec7fecb3d0a6e38a",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:7 - Conformance Checklist",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:cee340421d19f79240773a65f31df35b567970aeccea436a1e8cd680346a012c",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:9 - Consequences",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:2a5882476357848ef964d8baed08bd3a023519efb2b5634c047ac807bcf1fe11",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "SIE.5:12 - Relations",
+      "line": 90,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:17e45c5d23457915f98253bc70404dc75425c526697397e557995cfa9a589c4e",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "Dependencies",
+      "line": 100,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:e1fae96d37cae54404aefcffeb0c6d416179557a59db6c27586a1d51173235c5",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-2#root; conditional spec://ai.lev/fpf-eng-sie/contract/SIE-4#root; direct MDM/domain authority inputs @status:spec/done",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:a274aa6dbda4a13dfc48abe327b9cef2228bcd6017146c0b87e3f4ce3936f8cd",
+      "doc_path": "contract/SIE-5",
+      "file": "vibevm/vibespecs/contract/SIE-5.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-fdm/contract/FDM-2#root, spec://ai.lev/fpf-eng-sie/contract/SIE-6#root, spec://ai.lev/fpf-eng-sie/contract/SIE-7#root @status:spec/done",
+      "line": 103,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-5#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:e6662c67d6b6acc437e400fee41f3fb64c2037c5153c2dcf1af1bb2e4cfdda45",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6 - Fuse Source-Qualified Claims without Erasing Conflict",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:1f079c90e6547fec9b01ef2885146d23d7233eecd23318002d9605b952f7cd45",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:b37940603a168f60bcd3d11e837406959661734ede1c0ad694bd4f1a3a474484",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:896a1880aa4ae9039e04fb9be8cd68451f3627beded18c336117a6daf82796a3",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:73164ea74fd76870b3ae6314f2681299c671218658fa9add86c1eeb76e13c709",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:4 - Solution",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:8c5a1615f17da6b864cbf2bc7f3e5ceecbda5df82e8e95df3a6f0f10728d683d",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:4.1 - Pattern-Use Unfolding",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:5dbee224bf674d66db1f695d77c02e64a0806468f7c2fbdb57062b23d0464df7",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:4.2 - Record the Result",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:0b8016908b59e0d4e0a9b1a53903ca66c7c027911e00b20920b3ccccceea8334",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:4.3 - What Changes in Practice",
+      "line": 67,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:7ac832e9a7be60d00d19b00d278bbabed2acb72a46d729b5c232c4ee826a6f91",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:7 - Conformance Checklist",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:677c6529a7a9c97dd53e066c20a7e552b72344b671e18bad7e4613daeff9b807",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:9 - Consequences",
+      "line": 83,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:964819ccfbc4fbd74e8fb0262e9ad4c067883d0ef8a962e035ba8277d26d0546",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "SIE.6:12 - Relations",
+      "line": 89,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:cfcd7d4619d31181f84b4ca1afe32084a6641dac0c11a42befb5c95cb360f86a",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "Dependencies",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:e5dc6b2067af8dd0cfc6a61b16a3ee4395e399572c1518c6d2ee65900576bb01",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-2#root, spec://ai.lev/fpf-eng-sie/contract/SIE-4#root; spec://ai.lev/fpf-eng-sie/contract/SIE-5#root when identity is load-bearing; FPF spec://ai.lev/fpf-spec/contract/C-2-1#root, spec://ai.lev/fpf-spec/contract/A-10#root @status:spec/done",
+      "line": 101,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:dadbfdf30ac75016c820e59600b8401be68028f7d9d29f20fff519ee8e48eb1b",
+      "doc_path": "contract/SIE-6",
+      "file": "vibevm/vibespecs/contract/SIE-6.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-sie/contract/SIE-7#root @status:spec/done",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-6#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:687ec0d40e950874324df08207e0f592e64db89e80c0a5211c661db557baf7e6",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7 - Specify Semantic Extraction and Transformation Mappings",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:d0e0542b3f392cd8e8da6b4c5fa1ba5ae55a19d669f84464dd1b8d9dd7c2a107",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:5853624fee31aed7198dfa9ba309728391c5b1962b2227a044b9ef49d8f3b72f",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:da775f32d748e1fb2061aa1eec231b16be528cfd2bef6cb1b5c22ca4343a34f9",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:27c4cec40da79c5c53430404be7ace7746d4213760f30de80a70fe421ff787d5",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:4 - Solution",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:e08d0c757346c4f01c1c13de64a36f70d64284dc36ce435d4999a27f989cefc1",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:4.1 - Pattern-Use Unfolding",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:3f2c39dbb8f537abca8a1d384b1ca101a50fc3e61ba1b92793a1ad566952c9d3",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:4.2 - Record the Result",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:9d7a4e0021389925082e9ce875d21767d8d672de769aa02374b5edeb452fb8ab",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:4.3 - What Changes in Practice",
+      "line": 69,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:679be5d059076f5a3b82d1ef05b09b2d6161b96542d0b3561f7f033862dff3f6",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:7 - Conformance Checklist",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:9094c7ab8bec4cfa34b423411c0ba377087f6b6d36e9a0eeda2a002dde682a1b",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:9 - Consequences",
+      "line": 87,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:750b88ed9441524fe162b3ae3bb90438a9c4eebbd6142146065dd28ccc452e37",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "SIE.7:12 - Relations",
+      "line": 93,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:1a79fa2d7eb25a0370741fb1f23f020fd5e9479eae77ed3aa4b838fefc452228",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "Dependencies",
+      "line": 103,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:de83d11d867575850bdf2e71ade57631780a882d1685c992378830f911654907",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-2#root, spec://ai.lev/fpf-eng-sie/contract/SIE-4#root; conditional spec://ai.lev/fpf-eng-sie/contract/SIE-5#root and spec://ai.lev/fpf-eng-sie/contract/SIE-6#root; FPF spec://ai.lev/fpf-spec/contract/A-6-3-RT#root @status:spec/done",
+      "line": 105,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:235219fb057195d9d5549fdeb44fb2d2e8b5dcbc05b6bbe19a209b4fe5015035",
+      "doc_path": "contract/SIE-7",
+      "file": "vibevm/vibespecs/contract/SIE-7.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-sie/contract/SIE-8#root, spec://ai.lev/fpf-eng-sie/contract/SIE-9#root @status:spec/done",
+      "line": 106,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-7#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:93d1b90b3b276152a69e2ddb81f156adf52c07ce4feeb592b9cbd531e9a9e5cb",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8 - Choose Virtual, Materialized, or Hybrid Semantic Realization",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:f85b09a2c071cb0d5769210405f516f01b865e9656a8882e27ab3965a8d49112",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:59986e06a029825045797b104bcd41916f5e4cb3710be4c1f097cfa9570d2d52",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:488914cb0878e17bbce571f1a0653e0d7ec287e6c5a4f99c3622e48ca8f776df",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:02203da571ecd859bdc4118674b3a2e57059f9ba4167be8eacf010f20e88e147",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:4 - Solution",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:57cc47bb3bc1aa6f4934c6de074d83b38966b60ca6d592142521d18c851c2562",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:4.1 - Pattern-Use Unfolding",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:5a469154218392126660e476ec1736e39c685a07e12e6178644d7005a849c399",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:4.2 - Record the Result",
+      "line": 57,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:ff16e48a6a2faed0d5f64fd017d3624965791f5f641e8ca01986ae67f4291f80",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:4.3 - What Changes in Practice",
+      "line": 74,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:7f9d361f28164d2434cd5512b5ea84a6a2850777a39c6f4326c2b97687bab380",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:7 - Conformance Checklist",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:ddfb16a42a8a2f012d73168f978faf331741ea3ff8357f8aae03a573ae41ba66",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:9 - Consequences",
+      "line": 108,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:165724f314ff63a1ced8d71169872003116f4e41918bbf2fd785491967c7d697",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "SIE.8:12 - Relations",
+      "line": 114,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:653a31d6c5a9848a7179dc95e127a18f67831b80f02137a936d43c0d0e9a59b8",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "Dependencies",
+      "line": 124,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:7829116dd3bd0a64b64d84bf7d7f140dc9089fbde8d359cd056c411a2e9b5350",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-1#root, spec://ai.lev/fpf-eng-sie/contract/SIE-7#root; direct Data Engineering, platform, provider, and protection results @status:spec/done",
+      "line": 126,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#DEPENDS-ON"
+    },
+    {
+      "anchor": "REFERENCED-BY",
+      "content_hash": "sha256:9e0ecffd88ceef4b24982f274ed1c494b39d139189ca99d7a29aa9b70599858a",
+      "doc_path": "contract/SIE-8",
+      "file": "vibevm/vibespecs/contract/SIE-8.md",
+      "heading": "Referenced by (computed from the Tables of Contents): spec://ai.lev/fpf-eng-sie/contract/SIE-9#root @status:spec/done",
+      "line": 127,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-8#REFERENCED-BY"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:754e109d5eee6eccea648b5cc9972650dda88618d3151d6a3d5d7f9e5e649265",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9 - Connect a Receiving Use through a Semantic Interface",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#root"
+    },
+    {
+      "anchor": "problem-frame",
+      "content_hash": "sha256:57fa18a0872b2bd6bac76aaa59b3843de83da2e351eaf9d92d27264876923bf4",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:1 - Problem Frame",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#problem-frame"
+    },
+    {
+      "anchor": "problem",
+      "content_hash": "sha256:0df2698b154e4c19266d06741af60f932e3052680e33a59e212ec320f9a665f3",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:2 - Problem",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#problem"
+    },
+    {
+      "anchor": "forces",
+      "content_hash": "sha256:9eaa54c0a067478b0aa33df1169911bde1ee7f79d908c92b68ef2e421c1de520",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:3 - Forces",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#forces"
+    },
+    {
+      "anchor": "solution",
+      "content_hash": "sha256:9b3732b25e0f8c8256300428e3365bfcda59f8e7f2b567f3b7441650d179f5bb",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:4 - Solution",
+      "line": 38,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#solution"
+    },
+    {
+      "anchor": "pattern-use-unfolding",
+      "content_hash": "sha256:e2eff18209dd4405f443ca53bd9ad34cd6a46a8257fb479f75ca069104ffa5c3",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:4.1 - Pattern-Use Unfolding",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#pattern-use-unfolding"
+    },
+    {
+      "anchor": "record-the-result",
+      "content_hash": "sha256:f144296c48ca4d578f900f90f80e67542ad98abcabf37fa1c2934db7c805a7b8",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:4.2 - Record the Result",
+      "line": 55,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#record-the-result"
+    },
+    {
+      "anchor": "what-changes-in-practice",
+      "content_hash": "sha256:f30a54fe4fab50ef34dee2095c7bef5305d84bbe0ad5eb097bad6a5718d93b02",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:4.3 - What Changes in Practice",
+      "line": 69,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#what-changes-in-practice"
+    },
+    {
+      "anchor": "conformance-checklist",
+      "content_hash": "sha256:827801c5254ee3958ec2435c4f8e0bd11d3e9501ed8005bfd1f4f10e1fc99329",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:7 - Conformance Checklist",
+      "line": 73,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#conformance-checklist"
+    },
+    {
+      "anchor": "consequences",
+      "content_hash": "sha256:c9f3f7abffe2804ad876ae6f4a1984a1b2443e69e28b94da31d55e30ae948aab",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:9 - Consequences",
+      "line": 86,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#consequences"
+    },
+    {
+      "anchor": "relations",
+      "content_hash": "sha256:654019d55acf8a42b5707157edccd52e77605596faceea14e5291fe8967a2a68",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "SIE.9:12 - Relations",
+      "line": 92,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#relations"
+    },
+    {
+      "anchor": "dependencies",
+      "content_hash": "sha256:77bfe5ac083dde9ccb61a6f2ea79e56df681af15886c3a736304e4b1cc4a9db3",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "Dependencies",
+      "line": 102,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#dependencies"
+    },
+    {
+      "anchor": "DEPENDS-ON",
+      "content_hash": "sha256:987f97be7459631d28a74006c5aa29208db0e32fe5d1697246e046624708d352",
+      "doc_path": "contract/SIE-9",
+      "file": "vibevm/vibespecs/contract/SIE-9.md",
+      "heading": "Dependencies (as published): spec://ai.lev/fpf-eng-sie/contract/SIE-1#root, spec://ai.lev/fpf-eng-sie/contract/SIE-7#root, spec://ai.lev/fpf-eng-sie/contract/SIE-8#root; conditional SIE.4-SIE.6 results @status:spec/done",
+      "line": 104,
+      "uri": "spec://ai.lev/fpf-eng-sie/contract/SIE-9#DEPENDS-ON"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:227d386a154649369fd01d59ed83d7d3f28be02c7fb1c2786626df4b42a8f3ac",
+      "doc_path": "pub/ABOUT",
+      "file": "vibevm/vibespecs/pub/ABOUT.md",
+      "heading": "Semantic Integration Engineering Principles Framework",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/ABOUT#root"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:c7214c556b81c478ff8d8a0f30ea1013105e24241d8e46081833a40cd5b24d5a",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "Preface",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#root"
+    },
+    {
+      "anchor": "preface-1",
+      "content_hash": "sha256:d99924782df861f3a771b9244fa2ebcc6c26c217b8652e7ca1fa7c0001d92a89",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:1 - Meanings, identifiers, claims, carriers, and world-side referents remain distinct",
+      "line": 15,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-1"
+    },
+    {
+      "anchor": "preface-2",
+      "content_hash": "sha256:b55a333b9dc2366fe62e83dae43478fe59f2363ee2e6c2bac448cd64449fc466",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:2 - Source authority and receiving authority remain separate",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-2"
+    },
+    {
+      "anchor": "preface-3",
+      "content_hash": "sha256:261c35dcef22b598b77a495fbf4065907457379b139f63d5c3166763ef2a95db",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:3 - Pattern relations do not prescribe a lifecycle",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-3"
+    },
+    {
+      "anchor": "preface-4",
+      "content_hash": "sha256:73bfae7a8361dd0d809d38014559f6a1c6a26d535d2eb3a5e8c2f086568355b9",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:4 - The first whole result",
+      "line": 39,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-4"
+    },
+    {
+      "anchor": "preface-5",
+      "content_hash": "sha256:083fba5faa4a5e3cae245a3012b14848ca48bdbf11cab507e74363268e000cc4",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:5 - Use the repertoire at the scale of the missing result",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-5"
+    },
+    {
+      "anchor": "preface-6",
+      "content_hash": "sha256:4ba59bed495cd3330a13f70af83e20c9533b9957dd85ed17aeaee7ed6c1c4009",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:6 - Qualify the combined arrangement",
+      "line": 64,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-6"
+    },
+    {
+      "anchor": "sie-preface-6-1-a-shared-request-limit-changes-the-provider",
+      "content_hash": "sha256:42af9117bfcd78df824966925a4afa68cec89cf66cb4feaa1035d485aec7a230",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:6.1 - A shared request limit changes the provider result",
+      "line": 70,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#sie-preface-6-1-a-shared-request-limit-changes-the-provider"
+    },
+    {
+      "anchor": "preface-7",
+      "content_hash": "sha256:3304e4dac36cd241f793dd1699ac1b6ba863db35c57418d48eb88af1ad674db6",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:7 - Architectural Rationale",
+      "line": 84,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-7"
+    },
+    {
+      "anchor": "sie-preface-7-1-source-contributions-behind-the-arrangement",
+      "content_hash": "sha256:3ea6288de6c3aa90ac7c6263c8dd2fef150578d0ea3d8cdd5a03b2604a6c2d00",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:7.1 - Source contributions behind the arrangement",
+      "line": 99,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#sie-preface-7-1-source-contributions-behind-the-arrangement"
+    },
+    {
+      "anchor": "preface-8",
+      "content_hash": "sha256:9763e2bbacba3b8206351afef2243d347b319426bd67ba45eebf8ee8b4760a60",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:8 - Costs, perspectives, and correction",
+      "line": 117,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-8"
+    },
+    {
+      "anchor": "preface-9",
+      "content_hash": "sha256:7a4794124b2ad755aaa595003ae514d1f581af8dbcac748eebe3e5b1639dfd53",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:9 - Before relying on the whole result",
+      "line": 125,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-9"
+    },
+    {
+      "anchor": "preface-end",
+      "content_hash": "sha256:eccd3a426e62ac4e3e65e5f5f455fce936e73688c823eb78ccce5b0ad65dc5fe",
+      "doc_path": "pub/PREFACE",
+      "file": "vibevm/vibespecs/pub/PREFACE.md",
+      "heading": "SIE.Preface:End",
+      "line": 138,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/PREFACE#preface-end"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:294316cc2e45706f5815ef81712f626f2ef0b4156249d443690317a5c39609d4",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Semantic Integration Engineering Principles Framework Readme",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/README#root"
+    },
+    {
+      "anchor": "practical-entries",
+      "content_hash": "sha256:1c311006b17ddf3b9efb357e69258ea4058c4de8ee993f326d562f281c273cde",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Practical entries",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/README#practical-entries"
+    },
+    {
+      "anchor": "sie-inspection-connect-inspection-evidence-to-the-configured",
+      "content_hash": "sha256:6bbe4dca0a026910ba2e3af7fda3203297b357b2fcc28f5445396793a71ccdb9",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "SIE-INSPECTION - Connect inspection evidence to the configured product",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/README#sie-inspection-connect-inspection-evidence-to-the-configured"
+    },
+    {
+      "anchor": "sie-providers-compare-live-availability-under-semantic-and",
+      "content_hash": "sha256:a1878a92c622600e3266ddb827a866ed8cfeba07be20335606f7e6578dda7c18",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "SIE-PROVIDERS - Compare live availability under semantic and access limits",
+      "line": 29,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/README#sie-providers-compare-live-availability-under-semantic-and"
+    },
+    {
+      "anchor": "sie-commons-govern-shared-semantic-modules",
+      "content_hash": "sha256:85b291ff209f169765f046518023f907d960273c14dfd1acbb6fe4935d585a38",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "SIE-COMMONS - Govern shared semantic modules",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/README#sie-commons-govern-shared-semantic-modules"
+    },
+    {
+      "anchor": "citation",
+      "content_hash": "sha256:fbf824d4cfd34b9958c369f4b31aac81d6b3f66d0442d2bb088107d93ce5f897",
+      "doc_path": "pub/README",
+      "file": "vibevm/vibespecs/pub/README.md",
+      "heading": "Citation",
+      "line": 59,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/README#citation"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:4bbeea2658f11db87516bb438487a1127364e598cd9da520f1876e030cb2fe02",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Table of Contents",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/TOC#root"
+    },
+    {
+      "anchor": "public-units",
+      "content_hash": "sha256:ebc06f48c9eed0e46380eaf213395ba324dcc5843440dd4345ff1ae6bad78483",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Public units",
+      "line": 11,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/TOC#public-units"
+    },
+    {
+      "anchor": "part-i-semantic-integration-engineering-methods",
+      "content_hash": "sha256:36920d0465b0fa6cbe09d0d1a52ad1945c4579089889f8d5598b72f684a56781",
+      "doc_path": "pub/TOC",
+      "file": "vibevm/vibespecs/pub/TOC.md",
+      "heading": "Part I - Semantic Integration Engineering Methods",
+      "line": 22,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/TOC#part-i-semantic-integration-engineering-methods"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:7509615f87a1ce07fc59e50d70cb13cd61ad6caf05ad9804b449da34e2391462",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "Cross-Pattern Application",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/cross-pattern-application#root"
+    },
+    {
+      "anchor": "app-sie-01-ap242-and-qif-product-lifecycle-query",
+      "content_hash": "sha256:79b51ac5782d3d9a8a5c1996920cbb6cde9f694ddae43a892b6e9873da62a8f6",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-SIE-01 - AP242 and QIF product-lifecycle query",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/cross-pattern-application#app-sie-01-ap242-and-qif-product-lifecycle-query"
+    },
+    {
+      "anchor": "app-sie-02-semiconductor-identity-and-traceability",
+      "content_hash": "sha256:9fb227c6b136d8de94ac46b4eda573a91998cc6e738aba3521c0ddf14843a42f",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-SIE-02 - Semiconductor identity and traceability",
+      "line": 28,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/cross-pattern-application#app-sie-02-semiconductor-identity-and-traceability"
+    },
+    {
+      "anchor": "app-sie-03-end-to-end-quality-and-provenance",
+      "content_hash": "sha256:00c2d0ed076f159ce7ef444479e61b0d0a89f812f11f79290e03379113abd866",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-SIE-03 - End-to-end quality and provenance",
+      "line": 34,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/cross-pattern-application#app-sie-03-end-to-end-quality-and-provenance"
+    },
+    {
+      "anchor": "app-sie-04-high-change-provider-availability-without-a",
+      "content_hash": "sha256:d86ccf04443d33711ae566f8f04d594cb61504cddf2e4c59d8c0f8fbf9267c5e",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-SIE-04 - High-change provider availability without a materialized graph",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/cross-pattern-application#app-sie-04-high-change-provider-availability-without-a"
+    },
+    {
+      "anchor": "app-sie-05-a-modular-equipment-classification-commons",
+      "content_hash": "sha256:ad2802596553272c2b55d4bc95208b1663e835d98ed876f6c82e2997bfea2f8c",
+      "doc_path": "pub/cross-pattern-application",
+      "file": "vibevm/vibespecs/pub/cross-pattern-application.md",
+      "heading": "APP-SIE-05 - A Modular Equipment-Classification Commons",
+      "line": 48,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/cross-pattern-application#app-sie-05-a-modular-equipment-classification-commons"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:7d6ddcba6ff7a58ad5c256965c1e4bac1f4bc1c10045f5533700bdafd5036f3d",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Framework Boundary and Refresh",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#root"
+    },
+    {
+      "anchor": "intended-use-and-ordinary-non-use",
+      "content_hash": "sha256:ecd59738b52aa21c70514f9f32cea5fae844091fe05d09e0a7056ad9f759e61d",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Intended use and ordinary non-use",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#intended-use-and-ordinary-non-use"
+    },
+    {
+      "anchor": "patternid-and-reader-order",
+      "content_hash": "sha256:89880dedb9f1c01186f6d988790e6d45812671998832172e125373bb5dd2df24",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "PatternID and reader order",
+      "line": 13,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#patternid-and-reader-order"
+    },
+    {
+      "anchor": "supplied-pattern-repertoire",
+      "content_hash": "sha256:2849e67c588c2b7e38ea4b32cb0851f91cbf0caa17f22259c1fd85b477f9c651",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Supplied pattern repertoire",
+      "line": 17,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#supplied-pattern-repertoire"
+    },
+    {
+      "anchor": "package-anatomy-and-direct-result-relations",
+      "content_hash": "sha256:c6a59430e2c9304c40fbfa7c83773254f173bebc5f6e974f0be81511acc8d78d",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Package anatomy and direct result relations",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#package-anatomy-and-direct-result-relations"
+    },
+    {
+      "anchor": "pattern-selection-and-first-returned-result",
+      "content_hash": "sha256:9b637a3a6ee5450fa573076bfb803feb389e47e4ae3aee954a6bc32853f24633",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Pattern selection and first returned result",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#pattern-selection-and-first-returned-result"
+    },
+    {
+      "anchor": "source-use-and-currentness",
+      "content_hash": "sha256:b47bacb760ea6ef737fb485069bce6ffbeadb7c58891f18d2f1f50afb70a67bb",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Source use and currentness",
+      "line": 59,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#source-use-and-currentness"
+    },
+    {
+      "anchor": "related-modeling-and-engineering-work",
+      "content_hash": "sha256:7dec3ac55b396421406dfbe1b98aecef0bbbe086ef9455fd808371f376baae6b",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Related modeling and engineering work",
+      "line": 80,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#related-modeling-and-engineering-work"
+    },
+    {
+      "anchor": "fpf-neighboring-practice-and-authority-boundaries",
+      "content_hash": "sha256:531da029b62b5acd01eaff6abd4c0f9f375001ec088c8bd6d575db9588a483f7",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "FPF, neighboring practice, and authority boundaries",
+      "line": 91,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#fpf-neighboring-practice-and-authority-boundaries"
+    },
+    {
+      "anchor": "representative-case-coverage",
+      "content_hash": "sha256:8169fe95ef1fee8b8f319082e7638ae1a756afd96e4527d7c51f53107b696e03",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Representative case coverage",
+      "line": 97,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#representative-case-coverage"
+    },
+    {
+      "anchor": "edition-return",
+      "content_hash": "sha256:cba36035eaedd98f30209a89cb45d2a66275e82d725161451757efae6d9bfb5a",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Edition return",
+      "line": 109,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#edition-return"
+    },
+    {
+      "anchor": "publication-boundary",
+      "content_hash": "sha256:8299d7208d9eb21ce1d30cae65de73d3159f4fd78032f90ebb4e4f54d056142d",
+      "doc_path": "pub/framework-boundary-and-refresh",
+      "file": "vibevm/vibespecs/pub/framework-boundary-and-refresh.md",
+      "heading": "Publication boundary",
+      "line": 113,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/framework-boundary-and-refresh#publication-boundary"
+    },
+    {
+      "anchor": "root",
+      "content_hash": "sha256:cfd3ff4858a8fd8a042965716875e9aae68cf806e54d650f25ce9388275dcaf0",
+      "doc_path": "pub/parts/part-i-semantic-integration-engineering-methods",
+      "file": "vibevm/vibespecs/pub/parts/part-i-semantic-integration-engineering-methods.md",
+      "heading": "Part I - Semantic Integration Engineering Methods",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/pub/parts/part-i-semantic-integration-engineering-methods#root"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:b47f533bc1752c7f389b94fbc7780059a36f02001edc4dab4fc5f5074c73c372",
+      "doc_path": "source/SIE-1",
+      "file": "vibevm/vibespecs/source/SIE-1.md",
+      "heading": "SIE.1 - Bound the Receiving Use and Semantic Contract: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-1#depth"
+    },
+    {
+      "anchor": "archetypal-grounding-ap242-qif-configuration-query",
+      "content_hash": "sha256:ee71ba5908ae45cc575e3a7597b60c727f73afc3b4f7919fce49040a22c0cee7",
+      "doc_path": "source/SIE-1",
+      "file": "vibevm/vibespecs/source/SIE-1.md",
+      "heading": "SIE.1:5 - Archetypal Grounding - AP242/QIF Configuration Query",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-1#archetypal-grounding-ap242-qif-configuration-query"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:2d06be1666ba19ac84cc5d5079d24aa8fa1e375dcf4634159d53c2b53ec3120b",
+      "doc_path": "source/SIE-1",
+      "file": "vibevm/vibespecs/source/SIE-1.md",
+      "heading": "SIE.1:6 - Bias-Annotation",
+      "line": 24,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-1#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:53669961b1b7ec50066ff535e12e412683846a4c74561b28a241039142c54ddd",
+      "doc_path": "source/SIE-1",
+      "file": "vibevm/vibespecs/source/SIE-1.md",
+      "heading": "SIE.1:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 34,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-1#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:1f9530d4bf192b149ebc09249425f99d2314eb662faf6169cddb29705a65830e",
+      "doc_path": "source/SIE-1",
+      "file": "vibevm/vibespecs/source/SIE-1.md",
+      "heading": "SIE.1:10 - Rationale",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-1#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:0d7909e1020e1ec9ef932b6824bb25d1e697c519f768f5d0fecf30ca904f2240",
+      "doc_path": "source/SIE-1",
+      "file": "vibevm/vibespecs/source/SIE-1.md",
+      "heading": "SIE.1:11 - SoTA-Echoing",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-1#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:9108ae07767005e88a0ecec0867634db44cdc8846bac8c004331e94390031e11",
+      "doc_path": "source/SIE-1",
+      "file": "vibevm/vibespecs/source/SIE-1.md",
+      "heading": "SIE.1:End",
+      "line": 64,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-1#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:b1454e4603f8ed924235e2b09b47ea52d208bd7a0c6f9a6755c642d1d8badcbe",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10 - Validate a Semantic Integration Result for Its Receiving Use: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:af5ac04e72376625dae8086680f65a01590d7a2981cfb928f2cecc7f31b03ff7",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#archetypal-grounding"
+    },
+    {
+      "anchor": "positive-ap242-qif-subset-validation",
+      "content_hash": "sha256:a8562d0d23dfa9bfa3db4e77021cf0c4fa9c3b2299fbde59789405074e1b3320",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10:5.1 - Positive AP242/QIF Subset Validation",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#positive-ap242-qif-subset-validation"
+    },
+    {
+      "anchor": "a-decisive-defect-and-a-changed-receiving-meaning",
+      "content_hash": "sha256:8c87c949ab4e1f13204e95911378ae07c3e6f37ea9b31c36f549879729aba0a4",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10:5.2 - A Decisive Defect and a Changed Receiving Meaning",
+      "line": 27,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#a-decisive-defect-and-a-changed-receiving-meaning"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:051e47847da48e10591d42c77d5765db51b52876e5d72fef52458642db43f4f6",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10:6 - Bias-Annotation",
+      "line": 36,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:65d7729d1f83ddfadac1e735d9288da422c9d3b59028a7c3d61dde9c5eda3921",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:8a6ce9f0de367d42e9a75e72c10693badc42bb5eea9a59ca5ff34edb913f8f25",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10:10 - Rationale",
+      "line": 58,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:1064f7fd862d576566ca099d6302185f3a04049a60d95540a0e0f2d9f63d7762",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10:11 - SoTA-Echoing",
+      "line": 62,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:d3b98dade8428c88f06edd6c2682db5cd4c520af7f628b7439dfe3c038be23a5",
+      "doc_path": "source/SIE-10",
+      "file": "vibevm/vibespecs/source/SIE-10.md",
+      "heading": "SIE.10:End",
+      "line": 77,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-10#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:46754907d8741d04a67d7e106470fff4e5154307dfb3f32e835066ef74b2f4c3",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11 - Trace Semantic Change and Revalidate Affected Uses: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:d352ba986f4106239e6ff442e1272e6f2b53756321b1e503a5d30b4b834ea79f",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#archetypal-grounding"
+    },
+    {
+      "anchor": "compatible-reference-repair",
+      "content_hash": "sha256:e998195d3846a31e528712fe5e557c7ca22f58be6009167c1051fb105ac87b42",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11:5.1 - Compatible Reference Repair",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#compatible-reference-repair"
+    },
+    {
+      "anchor": "changed-promise-horizon",
+      "content_hash": "sha256:9dc995c731da74c3254ae198e2a15252488cfe888b5ce25b59843ea3f423fc1f",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11:5.2 - Changed Promise Horizon",
+      "line": 17,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#changed-promise-horizon"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:41b0981fbabe32e8bfbd3d9baf4758e4d835e3919b3b50ea7015758ac9b25867",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11:6 - Bias-Annotation",
+      "line": 30,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:a304463c20bd36ebd65132850f99f81e5e6b78c3916225a930fbc5040dcda565",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 40,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:f8b1a58c9e7ab2c78da42c1f7ae0848af96f17fe080983826ac57d31cf3fc071",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11:10 - Architectural Rationale",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:2902409051bd5c88710456c257e7869c18cff06298fec0d88f2c330d523ad082",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11:11 - SoTA-Echoing",
+      "line": 53,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:62bf84432db45e4401a4e5b49559e2d2a380cc37f5ad91607b7e6a0059470668",
+      "doc_path": "source/SIE-11",
+      "file": "vibevm/vibespecs/source/SIE-11.md",
+      "heading": "SIE.11:End",
+      "line": 71,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-11#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:4a19bd67ac83c19ad2451c6baaaa25c3d6152d56c1f6f8d0f3ea504c92da7b1c",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12 - Govern Modular Semantic Commons without Universal Authority: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:a1358fdc95ebe24d463ddb0cb3933e7646a02fe23d8220afb6e4daf637841d41",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#archetypal-grounding"
+    },
+    {
+      "anchor": "equipment-classes-shared-by-three-organizations",
+      "content_hash": "sha256:656381478f096fdbd5a987718accce1a45bc5a018c9a8955d1d098b86e0febd8",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:5.1 - Equipment Classes Shared by Three Organizations",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#equipment-classes-shared-by-three-organizations"
+    },
+    {
+      "anchor": "a-sufficient-interface-agreement",
+      "content_hash": "sha256:09965d8de80203b3b79b72ccd54292b80dfa74be3850971e16250892ea709eec",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:5.2 - A Sufficient Interface Agreement",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#a-sufficient-interface-agreement"
+    },
+    {
+      "anchor": "urgent-semantic-correction",
+      "content_hash": "sha256:4dee54ff794ed27f93d9b583e629616c40264b7812edf2a7169dcfe79ac91a04",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:5.3 - Urgent Semantic Correction",
+      "line": 48,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#urgent-semantic-correction"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:65b41a317c897e10867e65ae73e23e339bd53098239579676b83020caae18d10",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:6 - Bias-Annotation",
+      "line": 54,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:13063f9ff41e83b04e199424b8c0a91415114b87a87806fd24940f1c45ed15e7",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 64,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:f0a573a96ef2750f3b25765ead4fe24a77fe458c8029794bab97929115ef37dd",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:10 - Architectural Rationale",
+      "line": 74,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:ec701ec650ed1230485115876c9ba5eacdf28adc6814410d20b9a00eda60bc13",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:11 - SoTA-Echoing",
+      "line": 78,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:3883e98f37e99555cf56a864058d336c2fa75a8964ef269a9737fb25c5a0145c",
+      "doc_path": "source/SIE-12",
+      "file": "vibevm/vibespecs/source/SIE-12.md",
+      "heading": "SIE.12:End",
+      "line": 104,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-12#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:699ab955d40da55676ac7589f2a5947be0709cc5fdf51d991447ce55461a30a0",
+      "doc_path": "source/SIE-2",
+      "file": "vibevm/vibespecs/source/SIE-2.md",
+      "heading": "SIE.2 - Recover and Qualify Source Semantics and Authority: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-2#depth"
+    },
+    {
+      "anchor": "archetypal-grounding-ap242-and-qif-source-cut",
+      "content_hash": "sha256:809088ac863182e36141d293fb9d061b65f96466323735d30960f348fdc6f3d3",
+      "doc_path": "source/SIE-2",
+      "file": "vibevm/vibespecs/source/SIE-2.md",
+      "heading": "SIE.2:5 - Archetypal Grounding - AP242 and QIF Source Cut",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-2#archetypal-grounding-ap242-and-qif-source-cut"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:1da5fc029ae2cdac2a40bd6f8dd1e9b4a4dd74baba980bb99733c1399cbc9613",
+      "doc_path": "source/SIE-2",
+      "file": "vibevm/vibespecs/source/SIE-2.md",
+      "heading": "SIE.2:6 - Bias-Annotation",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-2#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:fc7214a65e012301775fba7fbefa85903eeca6eee99fee38ee4b020775151a3d",
+      "doc_path": "source/SIE-2",
+      "file": "vibevm/vibespecs/source/SIE-2.md",
+      "heading": "SIE.2:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 30,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-2#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:5f3c2d61a64c5b025ff78475e0840a6a8785c82d382cd2eee1965946090be8b5",
+      "doc_path": "source/SIE-2",
+      "file": "vibevm/vibespecs/source/SIE-2.md",
+      "heading": "SIE.2:10 - Rationale",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-2#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:17f1052b696918853d13bdd571fd52417226d2b99ae5b6cccda4fcd177c8534f",
+      "doc_path": "source/SIE-2",
+      "file": "vibevm/vibespecs/source/SIE-2.md",
+      "heading": "SIE.2:11 - SoTA-Echoing",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-2#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:5d1563993ca908310287c8220c7a16c73d78e7dd98c89425085f7ce66a03ea5a",
+      "doc_path": "source/SIE-2",
+      "file": "vibevm/vibespecs/source/SIE-2.md",
+      "heading": "SIE.2:End",
+      "line": 60,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-2#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:f05230b9780c1fbb8ab1f1832552856469af96c45ceb2055ff5c61491ae1c728",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3 - Construct or Reuse a Semantic Model for a Named Use: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#depth"
+    },
+    {
+      "anchor": "archetypal-grounding",
+      "content_hash": "sha256:bfed4ec4b4a66c28c29b8853c0bf6b366a3197b1e5c201b107aacbae1a105978",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3:5 - Archetypal Grounding",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#archetypal-grounding"
+    },
+    {
+      "anchor": "reuse-for-provider-availability",
+      "content_hash": "sha256:46128de2fe0207042003f91978644f5edbd18716f8a699611da50863f7ef5afc",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3:5.1 - Reuse for Provider Availability",
+      "line": 9,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#reuse-for-provider-availability"
+    },
+    {
+      "anchor": "extend-an-inspection-model",
+      "content_hash": "sha256:c2ea2ceab8c493c0e25f314b00b42951133c2e3c5564bc660d36dd49169d5f94",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3:5.2 - Extend an Inspection Model",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#extend-an-inspection-model"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:5e3731e465727f2f81f0394cdf1445d4e37ad2c5c81c1a478d893c0ae44b1332",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3:6 - Bias-Annotation",
+      "line": 37,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:de2a6b4a841b110de0b4539b6b873fd56db4395448fc0e07ad718e97074410b7",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 47,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "architectural-rationale",
+      "content_hash": "sha256:c9f04f8b4679319434d46f5bc54cca2c5b266d7004665c750252690966180d67",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3:10 - Architectural Rationale",
+      "line": 56,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#architectural-rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:072490a8012a441a7ee81e9aa6fda3ee17de1e90b850632e7188c9bc069f0d10",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3:11 - SoTA-Echoing",
+      "line": 60,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:909cd7aff37b43fec89b65aced98953a10a1ced2be0027f5baf8dea4a205001d",
+      "doc_path": "source/SIE-3",
+      "file": "vibevm/vibespecs/source/SIE-3.md",
+      "heading": "SIE.3:End",
+      "line": 85,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-3#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:9b2f88e8d3ce21f501400390943d8b6a7f8df37f7f4977b94cc7a7f01f779bf2",
+      "doc_path": "source/SIE-4",
+      "file": "vibevm/vibespecs/source/SIE-4.md",
+      "heading": "SIE.4 - Judge Cross-Source Correspondences and Their Permitted Uses: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-4#depth"
+    },
+    {
+      "anchor": "archetypal-grounding-product-feature-and-inspection",
+      "content_hash": "sha256:6e5c32fa2f71b9efc447347533f15e58f890d902846aa4517a0cfcd624b45dab",
+      "doc_path": "source/SIE-4",
+      "file": "vibevm/vibespecs/source/SIE-4.md",
+      "heading": "SIE.4:5 - Archetypal Grounding - Product Feature and Inspection Characteristic",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-4#archetypal-grounding-product-feature-and-inspection"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:4ca3f2a37fe42a0857297c4ad3b79ca0130e92f327104298c437233846ca56f9",
+      "doc_path": "source/SIE-4",
+      "file": "vibevm/vibespecs/source/SIE-4.md",
+      "heading": "SIE.4:6 - Bias-Annotation",
+      "line": 20,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-4#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:7cf65c428bd3e6c49170de8af2b5e6e4e3016b092f6ed05b30fc55025c483166",
+      "doc_path": "source/SIE-4",
+      "file": "vibevm/vibespecs/source/SIE-4.md",
+      "heading": "SIE.4:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 30,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-4#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:2967f8a4d80fde4a9da66711f30ba65bea9b3e6d01c88cf4ef5e7bd9a4731ee7",
+      "doc_path": "source/SIE-4",
+      "file": "vibevm/vibespecs/source/SIE-4.md",
+      "heading": "SIE.4:10 - Rationale",
+      "line": 41,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-4#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:20db7d73d3d979e2bb2a73c8a2e37eccf5b7a88231becde0a64d1327321cab0e",
+      "doc_path": "source/SIE-4",
+      "file": "vibevm/vibespecs/source/SIE-4.md",
+      "heading": "SIE.4:11 - SoTA-Echoing",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-4#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:e0e96b3d698d9ef545e678bfa494fd1820daf22b0b7421c0fd2636c869dca60f",
+      "doc_path": "source/SIE-4",
+      "file": "vibevm/vibespecs/source/SIE-4.md",
+      "heading": "SIE.4:End",
+      "line": 60,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-4#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:e8ef339ccd5ad47e9addb9643db3d35fdc3a7afbb2102a07327a3ccf1f690ef0",
+      "doc_path": "source/SIE-5",
+      "file": "vibevm/vibespecs/source/SIE-5.md",
+      "heading": "SIE.5 - Resolve Cross-Source Identity without Erasing Identifier Authority: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-5#depth"
+    },
+    {
+      "anchor": "archetypal-grounding-semiconductor-recall-trace",
+      "content_hash": "sha256:84d0efb5866b235a11f065bf05ce9b20052d11bdd4f3244a3e3196202061cde9",
+      "doc_path": "source/SIE-5",
+      "file": "vibevm/vibespecs/source/SIE-5.md",
+      "heading": "SIE.5:5 - Archetypal Grounding - Semiconductor Recall Trace",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-5#archetypal-grounding-semiconductor-recall-trace"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:d03f70af0d414b331dcab6af0e3bed6186c7367463d89b8b4aa6545868ef1a78",
+      "doc_path": "source/SIE-5",
+      "file": "vibevm/vibespecs/source/SIE-5.md",
+      "heading": "SIE.5:6 - Bias-Annotation",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-5#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:150f45c6b2d771f13de0615db9d26214191edb97f63d50e372bffa6b72df0ba0",
+      "doc_path": "source/SIE-5",
+      "file": "vibevm/vibespecs/source/SIE-5.md",
+      "heading": "SIE.5:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-5#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:9a27040a63be864f1979f017510a0f1829ae53c74527e0d42f1c74a94de2bf6b",
+      "doc_path": "source/SIE-5",
+      "file": "vibevm/vibespecs/source/SIE-5.md",
+      "heading": "SIE.5:10 - Rationale",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-5#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:aaff6973aa423bccb52e4d1301ced1de717ee8e92dde3d89b70b0019c9641e00",
+      "doc_path": "source/SIE-5",
+      "file": "vibevm/vibespecs/source/SIE-5.md",
+      "heading": "SIE.5:11 - SoTA-Echoing",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-5#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:7fe63761dc6e4cb0b984ff6a4493552eed175239b586fef9dbc3f58825ed32fd",
+      "doc_path": "source/SIE-5",
+      "file": "vibevm/vibespecs/source/SIE-5.md",
+      "heading": "SIE.5:End",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-5#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:91e2005fae778ae0d29fd519736ffee435b4a92ff62b4d2749dfd8a43ae6ddd5",
+      "doc_path": "source/SIE-6",
+      "file": "vibevm/vibespecs/source/SIE-6.md",
+      "heading": "SIE.6 - Fuse Source-Qualified Claims without Erasing Conflict: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-6#depth"
+    },
+    {
+      "anchor": "archetypal-grounding-provider-availability-claims",
+      "content_hash": "sha256:677035f48b9c33867751e6f2e9e52fc8a57a6d2d8000bc1d1b8de89f9b726446",
+      "doc_path": "source/SIE-6",
+      "file": "vibevm/vibespecs/source/SIE-6.md",
+      "heading": "SIE.6:5 - Archetypal Grounding - Provider Availability Claims",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-6#archetypal-grounding-provider-availability-claims"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:d10554ee14d57877b70b23d1f7deb9f3c9bfe2cb4040bf8f8f881d5b2286d93d",
+      "doc_path": "source/SIE-6",
+      "file": "vibevm/vibespecs/source/SIE-6.md",
+      "heading": "SIE.6:6 - Bias-Annotation",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-6#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:11644fa4d658228c6f7601054a5da534be95df42f24a12438402336076f0f50b",
+      "doc_path": "source/SIE-6",
+      "file": "vibevm/vibespecs/source/SIE-6.md",
+      "heading": "SIE.6:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-6#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:a46867a480e61f12e5132d306f0a1459d6187fa85ac1c23b33404122fa03ec69",
+      "doc_path": "source/SIE-6",
+      "file": "vibevm/vibespecs/source/SIE-6.md",
+      "heading": "SIE.6:10 - Rationale",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-6#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:c09fd5652599d9a0df7900ad260d38182074218c564c4641fc1ae1c908e14f0d",
+      "doc_path": "source/SIE-6",
+      "file": "vibevm/vibespecs/source/SIE-6.md",
+      "heading": "SIE.6:11 - SoTA-Echoing",
+      "line": 48,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-6#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:a027081ad923e405330ee46adea8fdfa3ede8ead7daa8ff62c3a5e44b0657eaf",
+      "doc_path": "source/SIE-6",
+      "file": "vibevm/vibespecs/source/SIE-6.md",
+      "heading": "SIE.6:End",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-6#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:66f126bd8a78550f36a08fdf3f18c7d0132da7a2d9ef1b02aada6147799561f3",
+      "doc_path": "source/SIE-7",
+      "file": "vibevm/vibespecs/source/SIE-7.md",
+      "heading": "SIE.7 - Specify Semantic Extraction and Transformation Mappings: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-7#depth"
+    },
+    {
+      "anchor": "archetypal-grounding-ap242-qif-mapping-rules",
+      "content_hash": "sha256:43164dbeda13597e19f3300a6080e13d191f87699338bc6594971e00cb18cbb3",
+      "doc_path": "source/SIE-7",
+      "file": "vibevm/vibespecs/source/SIE-7.md",
+      "heading": "SIE.7:5 - Archetypal Grounding - AP242/QIF Mapping Rules",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-7#archetypal-grounding-ap242-qif-mapping-rules"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:bfc133c9fe8e79b8638e9da4954320066b268e3cc10a4b671792eece940d6285",
+      "doc_path": "source/SIE-7",
+      "file": "vibevm/vibespecs/source/SIE-7.md",
+      "heading": "SIE.7:6 - Bias-Annotation",
+      "line": 21,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-7#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:63cbc6b167279ad1ec03968ffb0f9269a964108a4a747c5d319017de5dee0089",
+      "doc_path": "source/SIE-7",
+      "file": "vibevm/vibespecs/source/SIE-7.md",
+      "heading": "SIE.7:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 31,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-7#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:34b471e3915921b615fc58471efe09077ece6e7546c772378c039fb90bc65071",
+      "doc_path": "source/SIE-7",
+      "file": "vibevm/vibespecs/source/SIE-7.md",
+      "heading": "SIE.7:10 - Rationale",
+      "line": 42,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-7#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:02eecb09e135842e8f398fc10e2e2d991e15613c5e9f40abf0031b624fd84c44",
+      "doc_path": "source/SIE-7",
+      "file": "vibevm/vibespecs/source/SIE-7.md",
+      "heading": "SIE.7:11 - SoTA-Echoing",
+      "line": 46,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-7#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:38ab72f3e89b169ad6e14fe785ccacee78e2f70c45a4d85d948f872bcaf247c2",
+      "doc_path": "source/SIE-7",
+      "file": "vibevm/vibespecs/source/SIE-7.md",
+      "heading": "SIE.7:End",
+      "line": 61,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-7#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:f7677300ee76c2e5c7054e322e5e2fed821670a47fdcfed34b6e5d66ecd2c3dd",
+      "doc_path": "source/SIE-8",
+      "file": "vibevm/vibespecs/source/SIE-8.md",
+      "heading": "SIE.8 - Choose Virtual, Materialized, or Hybrid Semantic Realization: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-8#depth"
+    },
+    {
+      "anchor": "archetypal-grounding-provider-availability-without-replication",
+      "content_hash": "sha256:f43ffb1e6f0aee7d9e5b67d739f5a6e48b267d5395438225a358d892a6c98201",
+      "doc_path": "source/SIE-8",
+      "file": "vibevm/vibespecs/source/SIE-8.md",
+      "heading": "SIE.8:5 - Archetypal Grounding - Provider Availability without Replication",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-8#archetypal-grounding-provider-availability-without-replication"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:5183e4f7dd9e863e23c0152bc44826cb7459e8b34b6fca325a7e382215030d3b",
+      "doc_path": "source/SIE-8",
+      "file": "vibevm/vibespecs/source/SIE-8.md",
+      "heading": "SIE.8:6 - Bias-Annotation",
+      "line": 23,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-8#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:f93e269cec6ef34c59f6a3be98b595749689e902c9bd6cbbcb4e6545f447df12",
+      "doc_path": "source/SIE-8",
+      "file": "vibevm/vibespecs/source/SIE-8.md",
+      "heading": "SIE.8:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 33,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-8#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:f124c4ef41a04a79119bff7a654376472cd0f6db91b46e4f775ccb650c9a4d60",
+      "doc_path": "source/SIE-8",
+      "file": "vibevm/vibespecs/source/SIE-8.md",
+      "heading": "SIE.8:10 - Rationale",
+      "line": 44,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-8#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:716584d1601d09f30025d3cd26e80efbe5547a63863171c57cdeb43f5ed74ae8",
+      "doc_path": "source/SIE-8",
+      "file": "vibevm/vibespecs/source/SIE-8.md",
+      "heading": "SIE.8:11 - SoTA-Echoing",
+      "line": 48,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-8#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:dd58e68f47184f52706b44ed6c06ab2151639a3c1a89cadc4bcb380d18ed395d",
+      "doc_path": "source/SIE-8",
+      "file": "vibevm/vibespecs/source/SIE-8.md",
+      "heading": "SIE.8:End",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-8#end"
+    },
+    {
+      "anchor": "depth",
+      "content_hash": "sha256:1e1e07cf76539019b7e11944c247be6e5a4a16100392a000253eeb29dff037e1",
+      "doc_path": "source/SIE-9",
+      "file": "vibevm/vibespecs/source/SIE-9.md",
+      "heading": "SIE.9 - Connect a Receiving Use through a Semantic Interface: depth",
+      "line": 1,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-9#depth"
+    },
+    {
+      "anchor": "archetypal-grounding-ap242-qif-review-interface",
+      "content_hash": "sha256:a8a851b17ed5fd73bf6d915505d11b9da34886def25f5f361e40069b75e35768",
+      "doc_path": "source/SIE-9",
+      "file": "vibevm/vibespecs/source/SIE-9.md",
+      "heading": "SIE.9:5 - Archetypal Grounding - AP242/QIF Review Interface",
+      "line": 7,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-9#archetypal-grounding-ap242-qif-review-interface"
+    },
+    {
+      "anchor": "bias-annotation",
+      "content_hash": "sha256:45d1b2886bc5fbc4769eab6d74a9ce869be48595264f8a8c9049b71f7131f4e6",
+      "doc_path": "source/SIE-9",
+      "file": "vibevm/vibespecs/source/SIE-9.md",
+      "heading": "SIE.9:6 - Bias-Annotation",
+      "line": 24,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-9#bias-annotation"
+    },
+    {
+      "anchor": "common-anti-patterns-and-how-to-avoid-them",
+      "content_hash": "sha256:90cb45db00d7b8bb1471cdafdf08ad177572078e04418137a97f446110f2d758",
+      "doc_path": "source/SIE-9",
+      "file": "vibevm/vibespecs/source/SIE-9.md",
+      "heading": "SIE.9:8 - Common Anti-Patterns and How to Avoid Them",
+      "line": 34,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-9#common-anti-patterns-and-how-to-avoid-them"
+    },
+    {
+      "anchor": "rationale",
+      "content_hash": "sha256:8aacc007342d7d9945806caaa4071fb5d119b75b34266e23d94c8ea6c80289bd",
+      "doc_path": "source/SIE-9",
+      "file": "vibevm/vibespecs/source/SIE-9.md",
+      "heading": "SIE.9:10 - Rationale",
+      "line": 45,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-9#rationale"
+    },
+    {
+      "anchor": "sota-echoing",
+      "content_hash": "sha256:a5ad1f039a1dd733ba5a01f300164eb4ab39b00e936cec076db8f9b20b3def89",
+      "doc_path": "source/SIE-9",
+      "file": "vibevm/vibespecs/source/SIE-9.md",
+      "heading": "SIE.9:11 - SoTA-Echoing",
+      "line": 49,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-9#sota-echoing"
+    },
+    {
+      "anchor": "end",
+      "content_hash": "sha256:a0fbaaca51645e7c8a0d7c51bc327f6f2487f2320d8ece754efe5db3c021743e",
+      "doc_path": "source/SIE-9",
+      "file": "vibevm/vibespecs/source/SIE-9.md",
+      "heading": "SIE.9:End",
+      "line": 63,
+      "uri": "spec://ai.lev/fpf-eng-sie/source/SIE-9#end"
+    }
+  ],
+  "suspects": [],
+  "warnings": []
+}
